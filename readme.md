@@ -5,6 +5,10 @@ This project is a polling system that supports multiple users voting on polls in
 ## Postman Doc with all API's for testing
 https://www.postman.com/supply-administrator-33502002/backend-abhiman/overview
 
+## Video Demo of working solution
+https://drive.google.com/file/d/1ii_tZwXtMtGTjkkN3deDQ8fRDs6Mrmb4/view?usp=sharing
+
+
 ## Features
 
 - Create polls with options
