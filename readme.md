@@ -1,4 +1,4 @@
-# High-Concurrency Polling System with Kafka, Zookeeper, WebSockets, and PostgreSQL
+# Polling System with Kafka, Zookeeper, WebSockets, and PostgreSQL
 
 This project is a polling system that supports multiple users voting on polls in real-time, with a resilient design to ensure no votes are lost, even in case of failures. The system utilizes Kafka and Zookeeper for messaging and fault tolerance, PostgreSQL for data storage, and WebSockets for real-time updates.
 
