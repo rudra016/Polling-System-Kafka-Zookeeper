@@ -1,4 +1,3 @@
-// websockets/websocketServer.js
 const WebSocket = require("ws");
 
 const clients = {};
