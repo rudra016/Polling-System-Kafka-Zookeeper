@@ -1,4 +1,3 @@
-// kafka/consumer.js
 const kafka = require("kafka-node");
 const { updatePollCount } = require("../models/Poll");
 const { broadcastUpdate } = require("../websockets/websocketServer");
@@ -16,7 +15,7 @@ consumer.on("message", async (message) => {
         const pollData = await getPollById(pollId);
         broadcastUpdate(pollId, pollData);
     } catch (error) {
-        console.error("Error processing message:", error);
+        console.error("Error processing message (consumer):", error);
     }
 });
 
