@@ -2,13 +2,6 @@
 
 This project is a polling system that supports multiple users voting on polls in real-time, with a resilient design to ensure no votes are lost, even in case of failures. The system utilizes Kafka and Zookeeper for messaging and fault tolerance, PostgreSQL for data storage, and WebSockets for real-time updates.
 
-## Postman Doc with all API's for testing
-https://www.postman.com/supply-administrator-33502002/backend-abhiman/overview
-
-## Video Demo of working solution
-https://drive.google.com/file/d/1ii_tZwXtMtGTjkkN3deDQ8fRDs6Mrmb4/view?usp=sharing
-
-
 ## Features
 
 - Create polls with options
